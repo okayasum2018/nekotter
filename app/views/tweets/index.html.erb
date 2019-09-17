@@ -1,0 +1,27 @@
+    <header>
+      <h1>ねこったー</h1>
+    </header>
+    <div class="contents">
+      <% @tweets.each do |tweet|%>
+      <div class="message clearfix">
+        <%=image_tag"cat1.png" %>
+        <div class="message_box">
+          <p class="user_name">
+          <%= tweet.id %>   <%= tweet.name %>
+          <p class="text">
+          <%= tweet.text %>
+          <%=link_to"詳細", tweet_path(tweet.id), :class=>"btn" %>
+          <%=link_to"編集",edit_tweet_path(tweet.id) %>
+          <%=link_to"削除",tweet_path(tweet.id),method: :delete,data:{confirm:"本当に削除してよろしいですか?"} %>
+          </p>
+        </div>
+      </div>
+        <% end %>
+    <div class="contents2">
+      <%= paginate(@tweets) %>
+       <p class="contents3">
+        <%=link_to"投稿する",new_tweet_path %>
+       </p>
+   </div>
+
+ </div>

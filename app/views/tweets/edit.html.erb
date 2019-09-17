@@ -1,0 +1,21 @@
+ <div class="edit">
+<h1>編集</h1>
+
+<%= form_for (@tweet) do |f|%> 
+<%=image_tag"cat1.png" %>
+
+<p class="row5" >
+<%=f.label:name,"name" %><br>
+<%=f.text_field :name%>
+</p>
+
+<p class="row6" >
+<%=f.label:text,"text" %><br>
+<%=f.text_area :text %>
+</p>
+
+<p class="row7">
+ <%=f.submit "編集" %>
+</p>
+  <% end %>
+  </div>
