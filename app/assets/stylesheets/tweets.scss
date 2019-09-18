@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6, p, body {
   background-color:#FAF8EB;
 }
 
+.clearfix{
+  background-color:#FBFBF1;
+}
+
 .clearfix:after{
   display: block;
   content: "";
@@ -59,7 +63,6 @@ h2{
   height: 100%;
   width: 600px;
   margin: 5px auto 0;
-  background-color:white;
 }
 
 form{
@@ -136,19 +139,4 @@ form textarea{
 
 .text{
   line-height: 18px;
-}
-.contents2{
-  height:25px;
-  border: 1px solid #bbb;
-  border-bottom: none;
-  
-}
-
-.contents3{
-  height:25px;
-  border-bottom: 1px solid #bbb;
-}
-
-.btn{
- color:blue;
 }

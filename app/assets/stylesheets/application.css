@@ -20,7 +20,7 @@
   height: 100px;
   width: 600px;
   margin: 5px auto 0;
-  background-color: white;
+  background-color: #FBFBF1;
 }
 
 .show2{
@@ -32,7 +32,7 @@ text-align: center;
   height: 270px;
   width: 600px;
   margin: 0px auto;
-  background-color: white;
+  background-color: #FBFBF1;
 }
 
 .row5{
@@ -40,7 +40,7 @@ text-align: center;
   height: 60px;
   width: 570px;
   margin-left: 30px;
-  background-color: white;
+  background-color: #FBFBF1;
 }
 
 .row6{
@@ -48,12 +48,17 @@ text-align: center;
   height: 100px;
   width: 570px;
   margin: 20px 0 0 30px;
-  background-color: white;
+  background-color: #FBFBF1;
 }
 
 .row7{
 text-align: center;
 margin: 0 auto 15px;
+  background-color: #FBFBF1;
+}
+
+.contents{
+  background-color: #FBFBF1;
 }
 
 .contents2{
@@ -75,7 +80,16 @@ margin: 0 auto 15px;
   background-color: #F8FAAB;
 }
 
-.btn{
-  width:60px;
-  color:red;
+.message_btn{
+  display: inline;
+  margin-top: 30px;
+  padding: 2px;
+  color:blue;
+  width:35px;
+  height:25px;
+  border: 1px solid #bbb;
+  background-color: #ADEE9B;  
+  border-radius: 4px;
+  
 }
+

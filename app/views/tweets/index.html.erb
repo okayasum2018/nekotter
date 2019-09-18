@@ -11,9 +11,9 @@
           <p class="text">
           <%= tweet.text %>
           <div class="message_btn">
-          <%=link_to"詳細", tweet_path(tweet.id), :class=>"btn" %>
-          <%=link_to"編集",edit_tweet_path(tweet.id), :class=>"btn" %>
-          <%=link_to"削除",tweet_path(tweet.id), :class=>"btn", method: :delete,data:{confirm:"本当に削除してよろしいですか?"} %>
+          <%=link_to"詳細", tweet_path(tweet.id), :class=>"btn1" %>
+          <%=link_to"編集",edit_tweet_path(tweet.id), :class=>"btn2" %>
+          <%=link_to"削除",tweet_path(tweet.id), :class=>"btn3", method: :delete,data:{confirm:"本当に削除してよろしいですか?"} %>
           </div>
           </p>
         </div>
