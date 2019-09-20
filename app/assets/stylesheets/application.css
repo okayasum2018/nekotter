@@ -80,7 +80,21 @@ margin: 0 auto 15px;
   background-color: #F8FAAB;
 }
 
-.message_btn{
+.btn1{
+  display: inline;
+  margin-top: 30px;
+  padding: 2px;
+  color:blue;
+  width:45px;
+  height:25px;
+  border: 1px solid #bbb;
+  background-color: #ADEE9B;  
+  border-radius: 4px;
+  margin-top: 30px;
+  
+}
+
+.btn2{
   display: inline;
   margin-top: 30px;
   padding: 2px;
@@ -90,12 +104,19 @@ margin: 0 auto 15px;
   border: 1px solid #bbb;
   background-color: #ADEE9B;  
   border-radius: 4px;
-  
 }
 
-
-
-
+.btn3{
+  display: inline;
+  margin-top: 30px;
+  padding: 2px;
+  color:blue;
+  width:35px;
+  height:25px;
+  border: 1px solid #bbb;
+  background-color: #ADEE9B;  
+  border-radius: 4px;
+}
 
 .button-box{
   float: right;
