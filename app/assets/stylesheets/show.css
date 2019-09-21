@@ -1,0 +1,20 @@
+
+.show{
+  font-size: 20px;
+  height: 100px;
+  width: 600px;
+  margin: 2px auto 0;
+  background-color: #FFF;
+}
+
+.show2{
+text-align: center;
+}
+
+.h1{ background-color: #FBFBF1;
+  margin-bottom: 5px;
+}
+
+.cat {
+  width: 10%;
+}

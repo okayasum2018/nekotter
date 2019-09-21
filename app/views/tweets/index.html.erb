@@ -3,8 +3,8 @@
     </header>
     <div class="contents">
       <% @tweets.each do |tweet|%>
-      <div class="message clearfix">
-        <%=image_tag"cat1.png" %>
+      <div class="clearfix">
+        <%=image_tag"cat1.png",:width => '50'%>
         <div class="message_box">
           <p class="user_name">
           <%= tweet.id %>   <%= tweet.name %>

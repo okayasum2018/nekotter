@@ -14,53 +14,81 @@
  *= require_self
  */
 
+body, html {
+  height: 100%;
 
-.show{
-  font-size: 20px;
-  height: 100px;
-  width: 600px;
-  margin: 5px auto 0;
+
+}
+
+.clearfix:after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+
+header{
+  height: 46px;
+  background-color: #FBFBF1;
+  /*border-bottom: 2px solid #bbb;*/
+}
+
+h1, h2, h3, h4, h5, h6, p, body {
+  width:600px;
+  font-size: 14px;
+  color: #4a4a4a;
+  font-family: sans-serif;
+  margin: 2px auto;
+  padding: 0;
+}
+
+h1{
+  height: 46px;
+  line-height: 46px;
+  font-size: 18px;
+  text-align: center;
   background-color: #FBFBF1;
 }
 
-.show2{
-text-align: center;
+
+
+
+
+h2{
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
 }
 
-.edit{
-  font-size: 20px;
-  height: 270px;
-  width: 600px;
-  margin: 0px auto;
-  background-color: #FBFBF1;
+.message clearfix{
+    background-color: #FBFBF1;
 }
 
-.row5{
-  font-size: 20px;
-  height: 60px;
-  width: 570px;
-  margin-left: 30px;
-  background-color: #FBFBF1;
+form img{/*猫の画像 editのみ影響か?*/
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  height: 50px;
+  margin: 0 5px 5px 34px;
 }
 
-.row6{
-  font-size: 20px;
-  height: 100px;
-  width: 570px;
-  margin: 20px 0 0 30px;
-  background-color: #FBFBF1;
+form textarea{/*new editの入力ボックス*/
+  width: 500px;
+  border: 1px solid #ccc;
 }
 
-.row7{
-text-align: center;
-margin: 0 auto 15px;
-  background-color: #FBFBF1;
+div{
+  background-color: #FBFBF1;  
 }
 
 .contents{
+  height: 100%;
+  width: 600px;
+  margin: 5px auto 0;
   background-color: #FBFBF1;
-}
-
+  }
+  
 .contents2{
   width:270px;
   height: 30px;
@@ -80,49 +108,4 @@ margin: 0 auto 15px;
   background-color: #F8FAAB;
 }
 
-.btn1{
-  display: inline-block;
-  text-align: center;
-  padding-top: 2px;
-  color:blue;
-  width:45px;
-  height:25px;
-  border: 1px solid #bbb;
-  background-color: #ADEE9B;  
-  border-radius: 4px;
-  margin: 30px 15px 0 300px;
-  
-}
 
-.btn2{
-  display: inline-block;
-  text-align: center;
-  padding-top: 2px;
-  color:blue;
-  width:45px;
-  height:25px;
-  border: 1px solid #bbb;
-  background-color: #ADEE9B;  
-  border-radius: 4px;
-  margin: 30px 15px 0 0px;
-  
-}
-
-.btn3{
-  display: inline-block;
-  text-align: center;
-  padding-top: 2px;
-  color:blue;
-  width:45px;
-  height:25px;
-  border: 1px solid #bbb;
-  background-color: #ADEE9B;  
-  border-radius: 4px;
-  margin: 30px 15px 0 0px;
-  
-}
-
-.button-box{
-  float: right;
-  height: 70px;
-}

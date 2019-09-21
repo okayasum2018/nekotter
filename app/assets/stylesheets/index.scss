@@ -1,0 +1,98 @@
+.input-box{
+  float: left;
+  width: 500px;
+}
+
+
+
+.message{
+  min-height: 100px;
+  width: 598px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-bottom: none;
+}
+
+.message img{
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  height: 48px;
+  margin: 10px;
+}
+
+.message_box{
+  float: left;
+  height: 98px;
+  width: 505px;
+  padding: 9px 0 0;
+  margin-left:50px;
+  background-color:white;
+}
+
+.user_name{
+  font-weight: bold;
+  line-height: 18px;
+}
+
+.text{
+  width:500px;
+  line-height: 18px;
+}
+
+.time{
+  color: #bbb;
+}
+
+
+.btn1{
+  display: inline-block;
+  text-align: center;
+  padding-top: 2px;
+  color:blue;
+  width:45px;
+  height:25px;
+  border: 1px solid #bbb;
+  background-color: #ADEE9B;  
+  border-radius: 4px;
+  margin: 2px 15px 0 300px;
+  
+}
+
+.btn2{
+  display: inline-block;
+  text-align: center;
+  padding-top: 2px;
+  color:blue;
+  width:45px;
+  height:25px;
+  border: 1px solid #bbb;
+  background-color: #ADEE9B;  
+  border-radius: 4px;
+  margin: 30px 15px 0 0px;
+  
+}
+
+.btn3{
+  display: inline-block;
+  text-align: center;
+  padding-top: 2px;
+  color:blue;
+  width:45px;
+  height:25px;
+  border: 1px solid #bbb;
+  background-color: #ADEE9B;  
+  border-radius: 4px;
+  margin: 30px 15px 0 0px;
+  
+}
+
+.clearfix {
+  background-color: #FBFBF1;
+  border:1px solid #ACB7BB;
+}
+
+.message_btn{
+  height:55px;
+}

@@ -1,4 +1,12 @@
+ <header>
+   <h1 class="h1">ねこったー</h1>
+ </header>
+<div class="edit">
 <h1>詳細</h1>
+
+<div class="cat">
+  <%=image_tag "cat1.png", :width => '100' %>
+</div>
 
 <p class="show">
     <%= @tweet.id %> <%= @tweet.name %> <br>
@@ -7,4 +15,4 @@
 
 <P class="show2">
     <%=link_to"一覧に戻る",tweets_path %>
-</P>
+</div>    
