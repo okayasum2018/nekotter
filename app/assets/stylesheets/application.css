@@ -16,8 +16,6 @@
 
 body, html {
   height: 100%;
-
-
 }
 
 .clearfix:after{
@@ -26,14 +24,13 @@ body, html {
   clear: both;
 }
 
-
 header{
   height: 46px;
   background-color: #FBFBF1;
   /*border-bottom: 2px solid #bbb;*/
 }
 
-h1, h2, h3, h4, h5, h6, p, body {
+h1, h2, h3, p, body {
   width:600px;
   font-size: 14px;
   color: #4a4a4a;
@@ -50,10 +47,6 @@ h1{
   background-color: #FBFBF1;
 }
 
-
-
-
-
 h2{
   height: 40px;
   line-height: 40px;
@@ -62,7 +55,7 @@ h2{
 }
 
 .message clearfix{
-    background-color: #FBFBF1;
+  background-color: #FBFBF1;
 }
 
 form img{/*猫の画像 editのみ影響か?*/
@@ -95,17 +88,16 @@ div{
   margin: 0 auto;
   padding: 3px;
   border:none;
+  background-color: #FBFBF1;
   text-align: center;
-  
 }
 
 .contents3{
   width:70px;
-  margin: 15px auto;
+  margin: 20px auto 0;
   padding: 5px;
   text-align: center;
   border-radius: 8px;
   background-color: #F8FAAB;
+  text-decoration: none;
 }
-
-

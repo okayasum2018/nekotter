@@ -9,14 +9,14 @@ form{
 
 .edit{
   font-size: 20px;
-  height: 270px;
+  height: 170px;
   width: 600px;
   margin: 0px auto;
   background-color: #FBFBF1;
 }
 
 .row5{
-  font-size: 20px;
+  font-size: 15px;
   height: 60px;
   width: 570px;
   margin-left: 30px;
@@ -24,15 +24,13 @@ form{
 }
 
 .row6{
-  font-size: 20px;
-  height: 100px;
+  font-size: 15px;
+  height: 200px;
   width: 570px;
-  margin: 20px 0 0 30px;
+  margin: -5px 0 0 35px;
   background-color: #FBFBF1;
 }
 
-.row7{
-text-align: center;
-margin: 0 auto 15px;
-  background-color: #FBFBF1;
+#tweet_text{
+  height: 100px;
 }

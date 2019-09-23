@@ -15,7 +15,7 @@
 }
 
 .message img{
-  border: 1px solid #ccc;
+  border: 8px solid #ccc;
   border-radius: 5px;
   float: left;
   height: 48px;
@@ -26,19 +26,23 @@
   float: left;
   height: 98px;
   width: 505px;
-  padding: 9px 0 0;
+  padding: 0;
   margin-left:50px;
   background-color:white;
+  
 }
 
 .user_name{
   font-weight: bold;
   line-height: 18px;
+  margin-top:-30px;
+  background-color:white;
+  width:505px;
 }
 
 .text{
   width:500px;
-  line-height: 18px;
+  line-height: 68px;
 }
 
 .time{
@@ -70,7 +74,7 @@
   border: 1px solid #bbb;
   background-color: #ADEE9B;  
   border-radius: 4px;
-  margin: 30px 15px 0 0px;
+  margin: 0 15px 0 0px;
   
 }
 
@@ -84,7 +88,7 @@
   border: 1px solid #bbb;
   background-color: #ADEE9B;  
   border-radius: 4px;
-  margin: 30px 15px 0 0px;
+  margin: 0 15px 0 0px;
   
 }
 
@@ -94,5 +98,6 @@
 }
 
 .message_btn{
-  height:55px;
+  height:34px;
+  padding:2px;
 }
