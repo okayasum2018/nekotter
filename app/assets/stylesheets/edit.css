@@ -1,6 +1,6 @@
 form{
   width: 600px;
-  background-color: #FBFBF1;
+  background-color: #FAF9BF;
   padding: 5px 0 0;
 }
 
@@ -12,7 +12,7 @@ form{
   height: 170px;
   width: 600px;
   margin: 0px auto;
-  background-color: #FBFBF1;
+  background-color: #FAF9BF;
 }
 
 .row5{
@@ -20,17 +20,27 @@ form{
   height: 60px;
   width: 570px;
   margin-left: 30px;
-  background-color: #FBFBF1;
+  background-color:#FAF9BF;
 }
 
 .row6{
   font-size: 15px;
   height: 200px;
-  width: 570px;
+  width: 566px;
   margin: -5px 0 0 35px;
-  background-color: #FBFBF1;
+  background-color: #FAF9BF;
 }
 
 #tweet_text{
   height: 100px;
+}
+
+.contents4{
+  width:70px;
+  margin: -32px auto 0;
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #ADEE9B;
+  text-decoration: none;
 }

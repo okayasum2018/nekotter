@@ -26,7 +26,7 @@ body, html {
 
 header{
   height: 46px;
-  background-color: #FBFBF1;
+  background-color: #FAF9BF;
   /*border-bottom: 2px solid #bbb;*/
 }
 
@@ -44,7 +44,7 @@ h1{
   line-height: 46px;
   font-size: 18px;
   text-align: center;
-  background-color: #FBFBF1;
+  background-color: #FAF9BF;
 }
 
 h2{
@@ -55,7 +55,7 @@ h2{
 }
 
 .message clearfix{
-  background-color: #FBFBF1;
+  background-color: #FAF9BF;
 }
 
 form img{/*猫の画像 editのみ影響か?*/
@@ -72,14 +72,14 @@ form textarea{/*new editの入力ボックス*/
 }
 
 div{
-  background-color: #FBFBF1;  
+  background-color: #FAF9BF;  
 }
 
 .contents{
   height: 100%;
   width: 600px;
   margin: 5px auto 0;
-  background-color: #FBFBF1;
+  background-color: #FAF9BF;
   }
   
 .contents2{
@@ -88,7 +88,7 @@ div{
   margin: 0 auto;
   padding: 3px;
   border:none;
-  background-color: #FBFBF1;
+  background-color: #FAF9BF;
   text-align: center;
 }
 
@@ -98,6 +98,6 @@ div{
   padding: 5px;
   text-align: center;
   border-radius: 8px;
-  background-color: #F8FAAB;
+  background-color: #ADEE9B;
   text-decoration: none;
 }

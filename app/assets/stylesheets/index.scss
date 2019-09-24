@@ -15,7 +15,7 @@
 }
 
 .message img{
-  border: 8px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 5px;
   float: left;
   height: 48px;
@@ -35,9 +35,12 @@
 .user_name{
   font-weight: bold;
   line-height: 18px;
-  margin-top:-30px;
+  margin-top:-38px;
+  padding: 3px;
+  margin-left:5px;
   background-color:white;
-  width:505px;
+  width:200px;
+  
 }
 
 .text{
@@ -93,7 +96,7 @@
 }
 
 .clearfix {
-  background-color: #FBFBF1;
+  background-color: #FAF9BF;
   border:1px solid #ACB7BB;
 }
 
