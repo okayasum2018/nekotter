@@ -11,12 +11,12 @@
     </header>
     <div class="contents">
       <h2>投稿する</h2>
-      <%= form_tag('/tweets',method: :post, class: "message clearfix") do %>
+      <%= form_tag('/tweets',method: :post, class: "message clearfix_new") do %>
         <%=image_tag"cat1.png" %>
         <input cols="15" name="name" rows="1" placeholder="nickname"></input>
         <textarea cols="30" name="text" rows="4"></textarea>
         <div class="contents3">
-          <input type="submit" value="投稿する" class="submit-button">
+          <%=link_to"投稿する",tweets_path, class: "submit-button"%>
         </div>
        <% end %>
     </div>
