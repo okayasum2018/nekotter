@@ -6,11 +6,9 @@
 }
 
 .cat {
-   border: 2px solid #ccc;
-  border-radius: 5px;
   float: left;
   height: 48px;
-  margin: 10px;
+  margin: 0 2px 0px 20px;
   margin-left: 30px;
 }
 

@@ -102,3 +102,45 @@ div{
   background-color: #ADEE9B;
   text-decoration: none;
 }
+
+.post1{/*ログインボタン*/
+  font-size: 12px;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #ADEE9B;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #bbb;
+  margin: 2px 2px 0 430px;
+}  
+
+.post2{/*新規登録ボタン*/
+  font-size: 12px;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #ADEE9B;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #bbb;
+  margin: 2px 2px 0 2px;
+  
+}
+
+.user_nav grid-6
+.post2{/*ログアウトボタン*/
+  font-size: 12px;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #ADEE9B;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #bbb;
+  margin: 2px 2px 0 2px;
+  
+}

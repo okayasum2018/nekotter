@@ -29,7 +29,6 @@
   padding: 0;
   margin-left:50px;
   background-color:white;
-  
 }
 
 .user_name{
@@ -40,7 +39,6 @@
   margin-left:5px;
   background-color:white;
   width:200px;
-  
 }
 
 .text{
@@ -64,7 +62,6 @@
   background-color: #ADEE9B;  
   border-radius: 4px;
   margin: 2px 15px 0 300px;
-  
 }
 
 .btn2{
@@ -92,8 +89,7 @@
   background-color: #ADEE9B;  
   border-radius: 4px;
   margin: 0 15px 0 0px;
-  
-}
+  }
 
 .clearfix {
   background-color: #FAF9BF;
@@ -111,3 +107,9 @@
   height:34px;
   padding:2px;
 }
+
+img{/*index猫の画像*/
+  border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 2px 2px 0 2px; 
+} 
