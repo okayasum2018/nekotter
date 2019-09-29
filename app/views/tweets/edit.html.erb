@@ -5,21 +5,13 @@
 <div class="edit">
 <h1>編集</h1>
 
-<%= form_for (@tweet) do |f|%> 
-<%=image_tag"cat1.png" %>
 
-<p class="row5" >
-<%=f.label:name,"name" %><br>
-<%=f.text_field :name%>
-</p>
-
-<p class="row6" >
-<%=f.label:text,"text" %><br>
-<%=f.text_area :text %>
-</p>
 
 <p class="contents4">
- <%=link_to "編集",tweets_path %>
+ <%=form_tag("/tweets/#{@tweet.id}", method: :patch) do %>
+     <input type="text" name="name" value="<%= @tweet.name %>" placeholder="name" autofocus="true">
+    <textarea name="text" placeholder="text" rows="10" cols="30"><%= @tweet.text %></textarea>
 </p>
+<input type="submit" class="kami" value="編集">
   <% end %>
-  </div>
+ </div>

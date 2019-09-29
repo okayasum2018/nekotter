@@ -26,12 +26,9 @@ end
 
 def update
  @tweet = Tweet.find(params[:id])
- if @tweet.update(params.require(:tweet).permit(:name, :text))
+ @tweet.update(tweet_params)
   redirect_to tweets_path
- else
-  render"edit"
  end
-end
 
 def destroy
  @tweet=Tweet.find(params[:id])
