@@ -84,12 +84,13 @@ div{
   }
   
 .contents2{
-  width:270px;
+  width:594px;
+  line-height: 30px;
   height: 30px;
   margin: 0 auto;
   padding: 3px;
   border:none;
-  background-color: #FAF9BF;
+  background-color: #bffac6;
   text-align: center;
 }
 
@@ -130,32 +131,30 @@ div{
   
 }
 
-.user_nav grid-6
-.post2{/*ログアウトボタン*/
+.grid-67{/*ログアウトボタン*/
   font-size: 12px;
   display: inline-block;
-  width: 50px;
+  width: 70px;
   height: 25px;
   line-height: 25px;
   background-color: #ADEE9B;
   border-radius: 5px;
   text-align: center;
   border: 1px solid #bbb;
-  margin: 2px 2px 0 2px;
+  margin: 0 2px 0 0;
   
 }
 
-.user_nav grid-6
-.a{/*ログアウトボタン*/
+.grid-66{/*ログアウトボタン*/
   font-size: 12px;
   display: inline-block;
-  width: 50px;
+  width: 70px;
   height: 25px;
   line-height: 25px;
   background-color: #ADEE9B;
   border-radius: 5px;
   text-align: center;
   border: 1px solid #bbb;
-  margin: 2px 2px 0 2px;
+  margin: 2px 15px 0 430px;
   
 }

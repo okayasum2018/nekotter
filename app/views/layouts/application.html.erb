@@ -12,10 +12,11 @@
   <body>
  <header class="header">
     <div class="header__bar row">
+      <h1 class="grid-6">Nekotter</h1>
       <% if user_signed_in? %>
-        <div class="user_nav grid-6">
+        <div class="grid-66">
           <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
-          <a class="post" href="/tweets/new">投稿する</a>
+          <a class="grid-67" href="/tweets/new">投稿する</a>
         </div>
       <% else %>
         <div class="grid-6">

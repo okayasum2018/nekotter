@@ -56,29 +56,19 @@ form{
 }
 
 input{
-  margin-left: 30px;
+   margin-top: 40px;
+   margin-left: 5px;
 }
 
 textarea{
-    margin-left: 30px;
+   margin-top: 0;
+    margin-left: 75px;
 }
 
-a{
-  width:70px;
-  padding: 5px;
-  text-align: center;
-  border-radius: 8px;
-  background-color: #ADEE9B;
-  text-decoration: none;
-  margin: 0 0 5px 280px;
+form{
+  height: 210px;
 }
 
-.post{
-   width:70px;
-  padding: 5px;
-  text-align: center;
-  border-radius: 8px;
-  background-color: #ADEE9B;
-  text-decoration: none;
-  margin: 0 0 5px 400px;
+.cat2{
+  margin-left: 10px;
 }

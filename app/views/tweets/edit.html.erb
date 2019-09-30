@@ -1,8 +1,8 @@
- <header>
-   <h1>ねこったー</h1>
- </header>
-    
+
 <div class="edit">
+<div class="cat2">
+  <%=image_tag "cat1.png", :width => '50' %>
+</div>
 <p class="contents4">
  <%=form_tag("/tweets/#{@tweet.id}", method: :patch) do %>
      <input type="text" name="name" value="<%= @tweet.name %>" placeholder="name" autofocus="true">

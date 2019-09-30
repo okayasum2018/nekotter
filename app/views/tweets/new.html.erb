@@ -6,14 +6,11 @@
     <title>ねこったー</title>
   </head>
   <body>
-    <header>
-      <h1>ねこったー</h1>
-    </header>
     <div class="contents">
       <%= form_tag('/tweets',method: :post, class: "message clearfix_new") do %>
         <%=image_tag"cat1.png" %>
         <input cols="15" name="name" rows="1" placeholder="nickname"></input>
-        <textarea cols="30" name="text" rows="4"></textarea>
+        <textarea cols="30" name="text" rows="6"></textarea>
         <input type="submit" class="kami" value="投稿する">
        <% end %>
     </div>

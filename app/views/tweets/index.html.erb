@@ -1,6 +1,4 @@
-    <header>
-      <h1>ねこったー</h1>
-    </header>
+
     <div class="contents">
       <% @tweets.each do |tweet|%>
       <div class="clearfix">
@@ -21,9 +19,6 @@
         <% end %>
     <div class="contents2">
       <%= paginate(@tweets) %>
-       <p class="contents3">
-        <%=link_to"投稿する",new_tweet_path %>
-       </p>
    </div>
 
  </div>
