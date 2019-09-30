@@ -52,4 +52,33 @@ form{
   border-radius: 8px;
   background-color: #ADEE9B;
   text-decoration: none;
+  margin: 0 0 5px 280px;
+}
+
+input{
+  margin-left: 30px;
+}
+
+textarea{
+    margin-left: 30px;
+}
+
+a{
+  width:70px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #ADEE9B;
+  text-decoration: none;
+  margin: 0 0 5px 280px;
+}
+
+.post{
+   width:70px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #ADEE9B;
+  text-decoration: none;
+  margin: 0 0 5px 400px;
 }
