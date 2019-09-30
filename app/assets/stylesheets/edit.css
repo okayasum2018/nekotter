@@ -56,8 +56,7 @@ form{
 }
 
 input{
-   margin-top: 40px;
-   margin-left: 5px;
+   margin: 5px 0 5px 5px;
 }
 
 textarea{

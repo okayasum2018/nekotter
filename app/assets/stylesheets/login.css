@@ -2,10 +2,6 @@
  height: 170px;
 }
 
-.field, actions{
- margin-left: 30px;
-}
-
-.actions{
- margin-left: 30px;
+label{
+ margin-top: 5px;
 }
