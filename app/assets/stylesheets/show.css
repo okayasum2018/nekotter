@@ -1,20 +1,15 @@
-.show0{
+.show0{/*showのつぶやきの全スペース*/
   height: 190px;
 }
 
-
-.h1{ background-color: #FAF9BF;
-  margin-bottom: 5px;
-}
-
-.cat {
+.cat {/*showの猫の画像*/
   float: left;
   height: 48px;
   margin: 0 2px 0px 20px;
   margin-left: 30px;
 }
 
-.row8{
+.row8{/*showの名前ボックスのみ*/
   border: 1px solid #ccc;
   background-color: #FFF;
   width:200px;
@@ -23,7 +18,7 @@
   
 }
 
-.row9{
+.row9{/*showのテキストボックスのみ*/
   border: 1px solid #ccc;
   background-color: #FFF;
   width:400px;
