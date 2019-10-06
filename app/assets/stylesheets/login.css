@@ -5,3 +5,30 @@
 label{
  margin-top: 5px;
 }
+
+#user_email{
+   margin-top: 5px;
+}
+
+#user_password{
+  margin-top: 5px;
+}
+
+.actions input{
+ height: 30px;
+ margin-top: 10px;
+}
+
+#user_remember_me{
+ margin-top: 0;
+}
+
+#new_user.new_user{
+ height: 175px;
+}
+
+.actions{
+ width: 600px;
+ height: 100px;
+ background-color: #FAF9BF;
+}

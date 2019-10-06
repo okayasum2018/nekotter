@@ -25,7 +25,7 @@ body, html {
 }
 
 header{/*Nekotterのトップタイトルの全スペース*/
-  height: 56px;
+  height: 100px;
   background-color: #FAF9BF;
   /*border-bottom: 2px solid #bbb;*/
 }
@@ -75,7 +75,6 @@ div{/*トップNekotterタイトル全スペース、コメント欄の下のス
 }
 
 .contents{
-  height: 200px;
   width: 600px;
   margin: 5px auto 0;
   background-color: #FAF9BF;
@@ -112,7 +111,6 @@ div{/*トップNekotterタイトル全スペース、コメント欄の下のス
 .post1{/*ログインボタン*/
   font-size: 12px;
   display: inline-block;
-  width: 50px;
   height: 25px;
   line-height: 25px;
   background-color: #ADEE9B;
@@ -164,4 +162,5 @@ div{/*トップNekotterタイトル全スペース、コメント欄の下のス
 
 .grid-5{/*一番上のNekotterタイトル*/
  margin-bottom: 2px;
+line-height: 73px;
 }
